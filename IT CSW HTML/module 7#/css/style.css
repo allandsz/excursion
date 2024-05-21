@@ -1,0 +1,99 @@
+
+
+body{ 
+    background-image: linear-gradient(white,black);
+}
+
+header img {
+width: 100%;
+height: auto;
+max-width: 500px;
+
+}
+
+nav {
+    background-color: white;
+    border-top:solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ nav ul li {
+    padding:0;
+    margine-bottom:0.3em}
+
+ 
+nav ul li {
+    background-color: black;
+    padding: 1em;
+    min-width: 12%;
+    margin:.25em;
+    list-style-type: none;
+
+}
+
+nav ul li a  {
+    color: red; /* this change the color of the hyperlink*/
+    text-decoration: none; /* this remove underline of the hyperlink*/
+
+}
+ main {
+    background-color: white;
+    border-top:solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em;
+    margin-bottom: 1em;
+}
+ 
+
+ footer {
+    background-color: white;
+    border-top:solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em;
+     
+}
+/*begin mobile.*/
+@media screen and (max-width:640px){
+
+    nav ul li {
+        border-radius: 1em;
+    }
+}
+/* end mobile.*/
+
+
+/*begin tablet.*/
+@media screen and (min-width:641px){
+
+    nav ul li {
+        display: inline-block; /*this lists items horizontally and allow them to stretch.*/
+        border-radius: 1em;
+    }
+}
+/* end tablet.*/
+
+/*begin desktop.*/
+@media screen and (min-width:961px)
+{
+    header{ text-align: left;}
+    header img
+     { 
+    width: 200;
+    height: 7em;}
+
+    nav{
+        margin-top: -6.5em;/* this move the nav element near logo*/
+        width: 60%;
+        float: right;/* this float the nav element to the right side of the page*/
+    }
+
+    nav ul li {
+        display: inline-block; /*this lists items horizontally and allow them to stretch.*/
+        border-radius: 1em;
+    }
+}
+/* end desktop.*/

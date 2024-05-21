@@ -1,0 +1,21 @@
+h2{
+    color: white;
+    background-color: red
+font-family: aerial, "comic sans", calibri;
+font-size: 3em;
+text-align: center; 
+
+}
+
+h1 {background-color: white;}
+#container {color:yellow;}
+
+.accent {background-color:grey;}
+
+body main div {
+color:white;
+}
+
+footer{background-color:rgb(3, 59, 10);
+    color: #d62963;
+}

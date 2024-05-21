@@ -1,0 +1,190 @@
+
+
+body{ 
+    background-image: linear-gradient(white,black);
+}
+
+header img {
+    padding-right: 10em;
+width: 100%;
+height: auto;
+max-width: 500px;
+
+}
+
+nav {
+    /*background-color: white;
+    border-top:solid 0.3em black;
+    border-bottom: solid 0.3em black;*/
+    /*border-radius: 1.0em; /* this rounds the corners of elements*/
+    margin-bottom: 1em; /* this places some space between*/
+    font-weight: bold;
+    text-align: center;
+ }
+
+ nav ul li {
+    padding:0;
+    margin-top:0.3em;
+    margin-bottom:0.3em;}
+
+ 
+nav ul li {
+    background-color: black;
+    padding: 1em;
+    /*min-width: 12%;*/
+    margin:.25em;
+    list-style-type: none;
+
+}
+
+nav ul li a  {
+    color: red; /* this change the color of the hyperlink*/
+    text-decoration: none; /* this remove underline of the hyperlink*/
+}
+figure { 
+text-align: centre;
+background-color: white;}
+
+figure img{
+    max-width:800px;
+    max-height:600px;
+    width: 100%;
+    height:auto;
+}
+
+ main {
+    /*background-color: white;
+    border-top:solid 0.3em black;
+    border-bottom: solid 0.3em black;*/
+    background-image: linear-gradient(white, white, black);
+    min-height: 100px;
+    border-radius: 1.0em;
+    margin-bottom: 1em;
+}
+main .row:after {
+    content:"";
+    display:table;
+    clear: both;
+}
+main div .column{
+    float:left;
+}
+
+main div .left{
+  padding: 10px;
+    width:20%;
+    float:left;
+    
+}
+
+main div .center{
+padding: 10px;
+width: 35%;
+border-left: 3px solid black;
+border-right: 3px solid black;
+
+}
+main div .right{
+    float: right;
+    padding: 10px;
+    width: 25%;
+   
+}
+
+ footer {
+    background-image: linear-gradient(to right, white, white, black);
+    border-top:solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em;
+    padding-left: 12em;
+     
+}
+
+
+
+/*begin mobile.*/
+@media screen and (max-width:640px){
+
+    nav ul li {
+        border-radius: 1em;
+    }
+}
+/* end mobile.*/
+
+
+/*begin tablet.*/
+@media screen and (min-width:641px){
+
+    nav ul li {
+        display: inline-block; /*this lists items horizontally and allow them to stretch.*/
+        border-radius: 1em;
+        box-shadow: 0.5em 0.5em 0.5em black;
+    
+    
+    }
+        figure {box-shadow: 0.5em 0.5em 0.5em black;}
+
+        main {box-shadow: 0.5em 0.5em 0.5em black;
+            
+    }
+}
+/* end tablet.*/
+
+/*begin desktop.*/
+@media screen and (min-width:961px)
+{
+    header{ text-align: left;
+    background-image: linear-gradient(to right, grey, black, black);}
+    header img
+     { 
+    width: 200;
+    height: 7em;}
+
+    nav{
+        padding-top: 0.10em;
+        padding-bottom: 0.10em;
+        margin-top: -6.5em;/* this move the nav element near logo*/
+        width: 60%;
+        float: right;/* this float the nav element to the right side of the page*/
+        box-shadow: 0.5em 0.5em 0.5em black;
+    
+    
+    }
+        figure {box-shadow: 0.5em 0.5em 0.5em black;}
+
+        main {box-shadow: 0.5em 0.5em 0.5em black;
+            
+    }
+
+    nav ul li {
+        display: inline-block; /*this lists items horizontally and allow them to stretch.*/
+        border-radius: 1em;
+    }
+}
+/* end desktop.*/
+
+    /*3-column layout end.*/
+    /* schedule table begin.*/
+    .schedule table  
+{ border:0.2em solid black;
+    border-collapse: collapse;
+    width:95%;
+    margin-left: 2.5;
+}
+   .schedule caption{
+    border:0.1em solid black;
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+
+   .schedule th, td{ 
+    border: 0.1em solid black;
+    padding: 0.5em;
+    text-align: center;
+   }
+/*.schedule table end.*/
+   
+
+.schedule th{
+    background-color: black;
+    color:white;

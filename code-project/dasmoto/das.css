@@ -1,0 +1,85 @@
+@font-face {
+  font-family:"dancingscript";
+  src: url(font/Dancing_Script\ \(1\).zip);
+}
+*{
+  font-weight: bold;
+  text-align: left;
+  
+}
+.title{
+  font-family:"dancingscript";
+font-size: 100px;
+font-weight: bold;
+color: khaki;
+text-align: center;
+padding-top: 0px;
+
+
+
+}
+.back{
+  background-image: url(img/pattern.webp);
+   height:150px;
+    width:100%;
+    
+
+
+
+    
+}
+
+
+.brushes{
+  background-color: mediumspringgreen;
+  margin-top: 60px;
+  font-family: Helvetica;
+font-size: 32px;
+font-weight: bold;
+color: white; 
+
+}
+.h3{
+  color: black;
+  font-size: bold;
+  font-family:Helvetica;
+}
+.p{
+  font-family: Helvetica;
+font-weight: bold;
+color: blue;
+}
+.frames{
+  background-color:coral;
+  font-family: Helvetica;
+font-size: 32px;
+font-weight: bold;
+color: white;
+}
+.h3{
+  color:black;
+  font-weight:bold;
+  font-family:Helvetica;
+}
+.art{
+  font-family: Helvetica;
+font-weight: bold;
+color: blue;
+}
+.paint{
+  background-color: skyblue;
+  font-family: Helvetica;
+font-size: 32px;
+font-weight: bold;
+color: white;
+}
+.clean{
+  color:black;
+  font-weight:bold;
+  font-family:Helvetica;
+}
+.finish{
+  font-family: Helvetica;
+font-weight: bold;
+color: blue;
+}
